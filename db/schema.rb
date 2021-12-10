@@ -21,3 +21,9 @@ ActiveRecord::Schema.define(version: 2021_12_10_013609) do
   end
 
 end
+
+Plants
+  routes
+    does not create unused routes
+  GET /plants
+    returns an array of all plants
